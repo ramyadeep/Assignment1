@@ -74,7 +74,24 @@ section{
 }
 
 .footer{
+    display: flex;
+    align-items: stretch;
     width: 100%;
     text-align: center;
     line-height: 0.5;
+}
+.social-icon {
+    flex-grow: 5;
+}
+.social-icon i{
+    font-size: 3.5rem;
+    padding: 10px 20px ;
+
+}
+ i:hover{
+    color: blueviolet;
+}
+
+.contacts{
+    flex-grow: 5;
 }
