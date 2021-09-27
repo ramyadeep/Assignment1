@@ -16,7 +16,7 @@
 /* Nav Bar layout and styles */
 nav{
     text-align: center;
-    }
+}
 .nav-ul {
     list-style-type: none;
     margin: 10px;
@@ -26,7 +26,7 @@ nav{
 .nav-li{
     display: inline;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px 5%;
     margin: 20px;
     border: 2px solid black;
 }
@@ -57,14 +57,14 @@ nav{
 }
 
 .aside-section {
-    flex-grow: 4;
+    flex-grow: 3;
     text-align: center;
 }
 section{
     height: 300px;
 }
 .body {
-    flex-grow: 6;
+    flex-grow: 7;
     text-align: center;
 }
 
